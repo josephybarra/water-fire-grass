@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>water &#x2022; fire &#x2022; grass</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 class="header">water &#x2022; fire &#x2022; grass</h1>
+
+  <div class="winner-container">
+    <h3 class="winner"></h3>
+  </div>
+
+
+  <!-- SCORE and BUTTONS -->
+  <div class="main-container">
+
+    <div class="player-container">
+      <h3 class="player">Player</h3>
+      <h1 class="player-score">0</h1>
+      <button class="type" id="water">
+        <p>&#128167;</p>
+      </button>
+    </div>
+
+    <div class="tie-container">
+      <h3 class="tie">Ties</h3>
+      <h1 class="tie-score">0</h1>
+      <button class="type" id="fire">
+        <p>&#128293;</p>
+      </button>
+    </div>
+
+    <div class="computer-container">
+      <h3 class="computer">Computer</h3>
+      <h1 class="computer-score">0</h1>
+      <button class="type" id="grass">
+        <p>&#127793;</p>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- RESET -->
+  <div class="reset-container">
+    <button class='reset' onClick="resetGame()">Reset</button>
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="main.js"></script>
+</body>
+
+</html>
